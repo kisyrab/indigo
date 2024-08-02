@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Freesentation-9Black';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-9Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+body{font-family: 'GmarketSansMedium', 'Freesentation-9Black';}
+ul, li, ol{list-style: none;}
+a{text-decoration: none; color: inherit; display: inline-block;}
+img{vertical-align: top;}
+hr{height: 2px; border: none; display: block;}
+input, textarea{width: 100%; border: 0; border-bottom: 1px solid #777; color: #555; font-size: 12px;}
+:-ms-input-placeholder, ::-webkit-input-placeholder{color: #3f51b5;}
+:-ms-textarea-placeholder, ::-webkit-textarea-placeholder{color: #3f51b5;}
