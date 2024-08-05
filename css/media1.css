@@ -5,8 +5,32 @@
     /* 헤더영역의 반응형 설정 */
     .nav{display: none;}
     .menu_toggle_btn{display: block;}
+
+    /* we are */
+    .weare{flex-direction: column; align-items: center;}
+
+    .section_title{margin-bottom: 50px; text-align: center;}
+    .content_box{padding-left: 0; width: 100%; text-align: center;}
+    .content_box::before{display: none;}
+    .weare_2 .weare_list{flex-direction: column; padding: 20px;}
+    .weare_2 .weare_list li{padding: 50px 20px;}
+
+    .work_list li{width: 50%;}
+    
+    /* 블로그영역 */
+
+    .blog{flex-direction: column; align-items: center;}
+    .blog .blog_list{width: 100%;}
+
+
 } /* 1000 */
 
+
+
 @media screen and (max-width: 468px){
-    
+    .work_list li{width: 100%;}
+    .blog .blog_list{flex-direction: column; }
+    .blog .blog_list li:first-child{padding-left: 20px !important;}
+    .blog .blog_list li:last-child{padding-right: 20px !important;}
+    .blog .blog_list li{margin-bottom: 20px;}
 }/* 468 */
